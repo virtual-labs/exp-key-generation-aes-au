@@ -1,36 +1,37 @@
+
 {
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "How many bits are used in a standard AES key?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "64 bits",
+        "b": "128 bits",
+        "c": "192 bits",
+        "d": "256 bits"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. AES does not use a 64-bit key size.",
+        "b": "Correct. 128 bits is one of the standard key sizes used in AES.",
+        "c": "Correct. 192 bits is one of the standard key sizes used in AES.",
+        "d": "Correct. 256 bits is one of the standard key sizes used in AES."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "In AES key expansion, what is the 'S-box' used for?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "It is used to perform the initial permutation.",
+        "b": "It is used to expand the key size.",
+        "c": "It is used for substitution in the key schedule.",
+        "d": "It is used to reduce the key size."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. The S-box is not used for initial permutations in AES.",
+        "b": "Incorrect. While key expansion involves the S-box, it does not itself expand the key size.",
+        "c": "Correct. The S-box is used for substitution during the AES key schedule to increase cryptographic strength.",
+        "d": "Incorrect. The S-box does not reduce the key size; it is part of the substitution process in key generation."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
