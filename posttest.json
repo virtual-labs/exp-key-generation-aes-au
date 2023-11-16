@@ -1,0 +1,40 @@
+
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is the total number of round keys generated in AES-128 key expansion?",
+      "answers": {
+        "a": "10",
+        "b": "11",
+        "c": "12",
+        "d": "14"
+      },
+      "explanations": {
+        "a": "Incorrect. The number of round keys is greater than 10 for AES-128.",
+        "b": "Correct. For AES-128, 11 round keys are generated for the 10 rounds of encryption plus one initial round.",
+        "c": "Incorrect. 12 round keys are used in AES-192, not AES-128.",
+        "d": "Incorrect. 14 round keys are used in AES-256, not AES-128."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is NOT a step in AES key expansion?",
+      "answers": {
+        "a": "Subword rotation",
+        "b": "Mix Columns",
+        "c": "Rcon addition",
+        "d": "Initial permutation"
+      },
+      "explanations": {
+        "a": "Incorrect. Subword rotation is a step in the AES key expansion process.",
+        "b": "Correct. Mix Columns is a step in the AES encryption process, not key expansion.",
+        "c": "Incorrect. Rcon addition is a step in the AES key expansion process.",
+        "d": "Incorrect. While initial permutation is not part of key expansion, it is not specific to AES."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
