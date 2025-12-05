@@ -432,13 +432,130 @@
                     </div>
                     <p class="panel">Explanation</p>
                 </div>
+                
+                  <div class="question beginner">
+                    Which of the following components is used in AES key expansion?
+                  </div>
+                  
+                  <div class="answers">
+                    <div id="answer2a">
+                      <label>
+                        <input type="radio" name="question2" value="a">
+                        a: S-box
+                      </label>
+                      <a href="#" id="explanation2a" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer2b">
+                      <label>
+                        <input type="radio" name="question2" value="b">
+                        b: Rcon
+                      </label>
+                      <a href="#" id="explanation2b" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer2c">
+                      <label>
+                        <input type="radio" name="question2" value="c">
+                        c: RotWord
+                      </label>
+                      <a href="#" id="explanation2c" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer2d">
+                      <label>
+                        <input type="radio" name="question2" value="d">
+                        d: All the above
+                      </label>
+                      <a href="#" id="explanation2d" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                </div>
+                
+                  <div class="question beginner">
+                    The main goal of AES key expansion is:
+                  </div>
+                  
+                  <div class="answers">
+                    <div id="answer3a">
+                      <label>
+                        <input type="radio" name="question3" value="a">
+                        a: To increase encryption speed
+                      </label>
+                      <a href="#" id="explanation3a" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer3b">
+                      <label>
+                        <input type="radio" name="question3" value="b">
+                        b: To derive unique round keys to avoid attacks
+                      </label>
+                      <a href="#" id="explanation3b" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer3c">
+                      <label>
+                        <input type="radio" name="question3" value="c">
+                        c: To reduce ciphertext size
+                      </label>
+                      <a href="#" id="explanation3c" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer3d">
+                      <label>
+                        <input type="radio" name="question3" value="d">
+                        d: To compress original data
+                      </label>
+                      <a href="#" id="explanation3d" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                </div>
+                
+                  <div class="question beginner">
+                    In AES key expansion, RotWord operation involves:
+                  </div>
+                  
+                  <div class="answers">
+                    <div id="answer4a">
+                      <label>
+                        <input type="radio" name="question4" value="a">
+                        a: Rotating a word right by 1 byte
+                      </label>
+                      <a href="#" id="explanation4a" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer4b">
+                      <label>
+                        <input type="radio" name="question4" value="b">
+                        b: Rotating a word left by 1 byte
+                      </label>
+                      <a href="#" id="explanation4b" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer4c">
+                      <label>
+                        <input type="radio" name="question4" value="c">
+                        c: Rotating bits right by 1 bit
+                      </label>
+                      <a href="#" id="explanation4c" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer4d">
+                      <label>
+                        <input type="radio" name="question4" value="d">
+                        d: No rotation
+                      </label>
+                      <a href="#" id="explanation4d" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                </div>
                </div>
                 <button id="submit" class="btn btn-primary">Submit Quiz</button>
                 <div id="results"></div>
           </div>
             
             <script>
-              const myQuestions = [{"question":"How many bits are used in a standard AES key?","answers":{"a":"64 bits","b":"128 bits","c":"192 bits","d":"256 bits"},"explanations":{"a":"Incorrect. AES does not use a 64-bit key size.","b":"Correct. 128 bits is one of the standard key sizes used in AES.","c":"Correct. 192 bits is one of the standard key sizes used in AES.","d":"Correct. 256 bits is one of the standard key sizes used in AES."},"correctAnswer":"b","difficulty":"beginner"},{"question":"In AES key expansion, what is the 'S-box' used for?","answers":{"a":"It is used to perform the initial permutation.","b":"It is used to expand the key size.","c":"It is used for substitution in the key schedule.","d":"It is used to reduce the key size."},"explanations":{"a":"Incorrect. The S-box is not used for initial permutations in AES.","b":"Incorrect. While key expansion involves the S-box, it does not itself expand the key size.","c":"Correct. The S-box is used for substitution during the AES key schedule to increase cryptographic strength.","d":"Incorrect. The S-box does not reduce the key size; it is part of the substitution process in key generation."},"correctAnswer":"c","difficulty":"beginner"}];
+              const myQuestions = [{"question":"How many bits are used in a standard AES key?","answers":{"a":"64 bits","b":"128 bits","c":"192 bits","d":"256 bits"},"explanations":{"a":"Incorrect. AES does not use a 64-bit key size.","b":"Correct. 128 bits is one of the standard key sizes used in AES.","c":"Correct. 192 bits is one of the standard key sizes used in AES.","d":"Correct. 256 bits is one of the standard key sizes used in AES."},"correctAnswer":"b","difficulty":"beginner"},{"question":"In AES key expansion, what is the 'S-box' used for?","answers":{"a":"It is used to perform the initial permutation.","b":"It is used to expand the key size.","c":"It is used for substitution in the key schedule.","d":"It is used to reduce the key size."},"explanations":{"a":"Incorrect. The S-box is not used for initial permutations in AES.","b":"Incorrect. While key expansion involves the S-box, it does not itself expand the key size.","c":"Correct. The S-box is used for substitution during the AES key schedule to increase cryptographic strength.","d":"Incorrect. The S-box does not reduce the key size; it is part of the substitution process in key generation."},"correctAnswer":"c","difficulty":"beginner"},{"question":"Which of the following components is used in AES key expansion?","answers":{"a":"S-box","b":"Rcon","c":"RotWord","d":"All the above"},"explanations":{"a":"Incorrect. While S-box is part of AES key expansion, it is not the only component used.","b":"Incorrect. While Rcon is part of AES key expansion, it is not the only component used.","c":"Incorrect. While RotWord is part of AES key expansion, it is not the only component used.","d":"Correct. S-box, Rcon, and RotWord are all essential components used in the AES key expansion process."},"correctAnswer":"d","difficulty":"beginner"},{"question":"The main goal of AES key expansion is:","answers":{"a":"To increase encryption speed","b":"To derive unique round keys to avoid attacks","c":"To reduce ciphertext size","d":"To compress original data"},"explanations":{"a":"Incorrect. Key expansion does not primarily focus on increasing encryption speed.","b":"Correct. The main goal of AES key expansion is to derive unique round keys for each round to enhance security and avoid attacks.","c":"Incorrect. Key expansion does not reduce ciphertext size.","d":"Incorrect. Key expansion is not used to compress original data."},"correctAnswer":"b","difficulty":"beginner"},{"question":"In AES key expansion, RotWord operation involves:","answers":{"a":"Rotating a word right by 1 byte","b":"Rotating a word left by 1 byte","c":"Rotating bits right by 1 bit","d":"No rotation"},"explanations":{"a":"Incorrect. RotWord performs a left rotation, not a right rotation.","b":"Correct. RotWord performs a 1-byte circular left shift on a word, transforming [b0, b1, b2, b3] into [b1, b2, b3, b0].","c":"Incorrect. RotWord operates on bytes, not individual bits.","d":"Incorrect. RotWord does perform a rotation operation."},"correctAnswer":"b","difficulty":"beginner"}];
             </script>
               <script src="./assets/js/assessment_v2.js"></script>  
           <div class="bug-report-mobile">

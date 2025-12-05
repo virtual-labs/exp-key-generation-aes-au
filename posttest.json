@@ -35,6 +35,57 @@
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
+    },
+    {
+      "question": "Rcon values used in key expansion are applied only to:",
+      "answers": {
+        "a": "The first word of each round key",
+        "b": "The last word of each round key",
+        "c": "Every even word",
+        "d": "All words equally"
+      },
+      "explanations": {
+        "a": "Correct. Rcon values are applied only to the first word of each round key block during the key expansion process.",
+        "b": "Incorrect. Rcon values are not applied to the last word of each round key.",
+        "c": "Incorrect. Rcon values are not applied to every even word.",
+        "d": "Incorrect. Rcon values are selectively applied, not to all words equally."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following ensures nonlinearity in AES key schedule?",
+      "answers": {
+        "a": "XOR operations",
+        "b": "RotWord",
+        "c": "SubWord + S-Box",
+        "d": "Rcon constants"
+      },
+      "explanations": {
+        "a": "Incorrect. XOR operations are linear and do not introduce nonlinearity.",
+        "b": "Incorrect. RotWord is a linear rotation operation and does not introduce nonlinearity.",
+        "c": "Correct. SubWord combined with S-Box substitution introduces nonlinearity to the key schedule, enhancing security.",
+        "d": "Incorrect. Rcon constants provide additional complexity but do not introduce nonlinearity."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Consider AES-128. How many 32-bit words are generated in total during the key schedule?",
+      "answers": {
+        "a": "11",
+        "b": "20",
+        "c": "44",
+        "d": "60"
+      },
+      "explanations": {
+        "a": "Incorrect. 11 is the number of round keys, not the total words generated.",
+        "b": "Incorrect. 20 words would be insufficient for AES-128 key expansion.",
+        "c": "Correct. AES-128 key expansion generates a total of 44 32-bit words (4 initial words + 40 expansion words for 10 rounds).",
+        "d": "Incorrect. 60 words would be the number for AES-256, not AES-128."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
     }
   ]
 }
