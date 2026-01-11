@@ -35,6 +35,57 @@
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following components is used in AES key expansion?",
+      "answers": {
+        "a": "S-box",
+        "b": "Rcon",
+        "c": "RotWord",
+        "d": "All the above"
+      },
+      "explanations": {
+        "a": "Incorrect. While S-box is part of AES key expansion, it is not the only component used.",
+        "b": "Incorrect. While Rcon is part of AES key expansion, it is not the only component used.",
+        "c": "Incorrect. While RotWord is part of AES key expansion, it is not the only component used.",
+        "d": "Correct. S-box, Rcon, and RotWord are all essential components used in the AES key expansion process."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The main goal of AES key expansion is:",
+      "answers": {
+        "a": "To increase encryption speed",
+        "b": "To derive unique round keys to avoid attacks",
+        "c": "To reduce ciphertext size",
+        "d": "To compress original data"
+      },
+      "explanations": {
+        "a": "Incorrect. Key expansion does not primarily focus on increasing encryption speed.",
+        "b": "Correct. The main goal of AES key expansion is to derive unique round keys for each round to enhance security and avoid attacks.",
+        "c": "Incorrect. Key expansion does not reduce ciphertext size.",
+        "d": "Incorrect. Key expansion is not used to compress original data."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In AES key expansion, RotWord operation involves:",
+      "answers": {
+        "a": "Rotating a word right by 1 byte",
+        "b": "Rotating a word left by 1 byte",
+        "c": "Rotating bits right by 1 bit",
+        "d": "No rotation"
+      },
+      "explanations": {
+        "a": "Incorrect. RotWord performs a left rotation, not a right rotation.",
+        "b": "Correct. RotWord performs a 1-byte circular left shift on a word, transforming [b0, b1, b2, b3] into [b1, b2, b3, b0].",
+        "c": "Incorrect. RotWord operates on bytes, not individual bits.",
+        "d": "Incorrect. RotWord does perform a rotation operation."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
     }
   ]
 }
