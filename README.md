@@ -1,24 +1,21 @@
 ## Introduction
 
 
-<b>Discipline | <b>Fill your discipline name here
+| <b>Discipline  | <b> Computer Science and Engineering                          |
 :--|:--|
-<b> Lab | <b> Fill your lab name here
-<b> Experiment|     <b> Fill your experiment name and number here
+<b> Lab | <b> Cryptography Lab
+<b> Experiment|     <b> AES Key Generation
 
 ### About the Experiment 
 
-Fill a brief description of this experiment here
-
-<b>Name of Developer | <b> Fill the name of experiment owner here 
+<b>Name of Developer | <b> Dr. Krishnashree Achuthan
 :--|:--|
-<b> Institute | <b>  
-<b> Email id|     <b>  
-<b> Department |  
+<b> Institute | <b>  Amrita Vishwa Vidyapeetham 
+<b> Email id|     <b>    krishna@amrita.edu
+<b> Department |   Center for Cyber Security Systems and Networks
 
 ### Contributors List
 
-SrNo | Name | Faculty or Student | Department| Institute | Email id
-:--|:--|:--|:--|:--|:--|
-1 | . | . | . | . | .
-2 | . | . | . | . | .
+| SrNo | Name               | Faculty or Student | Department                       | Institute                  | Email id                        |
+| :--- | :----------------- | :----------------- | :------------------------------- | :------------------------- | :------------------------------ |
+| 1    | Dr. Ritwik Murali  | Faculty           | Computer Science and Engineering | Amrita Vishwa Vidyapeetham |  m_ritwik@cb.amrita.edu  |
